@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header {
+    background: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Contact List */
+main {
+    padding: 20px;
+}
+
+#contact-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#contact-list li:last-child {
+    border-bottom: none;
+}
+
+/* Footer */
+footer {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+footer form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+footer input, footer button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer button {
+    background: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
